@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:name', (req, res) => {
-    Dogs.find()
+    Dogs.find({name: req.params.name})
         .then((result) => {
             res.send(result)
         })
