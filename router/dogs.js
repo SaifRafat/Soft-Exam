@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router();
 router.use(express.json())
-const Dogs = require('../schemes/dogModel')
+const Dogs = require('../scheme/dogModel')
 
 
 router.get('/', (req, res) => {

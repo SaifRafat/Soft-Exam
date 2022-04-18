@@ -1,0 +1,8 @@
+{
+	"name" : "ABC",
+	"image" : "german.png",
+	"breed" : "German Shepard",
+	"color" : "Black",
+	"height" : "2ft",
+	"description" : "Healthy"
+}
